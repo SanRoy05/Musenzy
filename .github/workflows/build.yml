@@ -74,7 +74,9 @@ jobs:
           if-no-files-found: error
 
       - name: 🧹 Clean build artifacts
-        run: rm -rf build/app/outputs/flutter-apk/app-*.apk
+        run: |
+          rm -rf build/app/outputs/flutter-apk/app-*.apk
+          ./android/gradlew clean -p android
 
       - name: 🔨 Build Universal APK
         run: |
