@@ -45,23 +45,42 @@ jobs:
           echo "org.gradle.caching=true" >> android/gradle.properties
           echo "android.enableR8.fullMode=false" >> android/gradle.properties
 
-      - name: 🔨 Build All APKs (split + universal)
+      - name: 🔨 Build Split APKs
         run: |
           flutter build apk \
             --release \
             --split-per-abi \
             --no-tree-shake-icons
 
-      - name: 📊 Show APK sizes
+      - name: 💾 Preserve Split APKs
+        run: |
+          mkdir -p final-apks
+          cp build/app/outputs/flutter-apk/app-arm64-v8a-release.apk final-apks/
+          cp build/app/outputs/flutter-apk/app-armeabi-v7a-release.apk final-apks/
+
+      - name: 🧹 Clean Build Directory
+        run: rm -rf build/
+
+      - name: 🔨 Build Universal APK
+        run: |
+          flutter build apk \
+            --release \
+            --no-tree-shake-icons
+
+      - name: 💾 Copy Universal APK
+        run: |
+          cp build/app/outputs/flutter-apk/app-release.apk final-apks/
+
+      - name: 📊 Show Final APK files
         run: |
           echo "=== APK Files ==="
-          ls -lh build/app/outputs/flutter-apk/*.apk
+          ls -lh final-apks/
 
       - name: 📤 Upload arm64-v8a APK
         uses: actions/upload-artifact@v4
         with:
           name: Musenzy-arm64-release
-          path: build/app/outputs/flutter-apk/app-arm64-v8a-release.apk
+          path: final-apks/app-arm64-v8a-release.apk
           retention-days: 30
           if-no-files-found: error
 
@@ -69,7 +88,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: Musenzy-armeabi-release
-          path: build/app/outputs/flutter-apk/app-armeabi-v7a-release.apk
+          path: final-apks/app-armeabi-v7a-release.apk
           retention-days: 30
           if-no-files-found: error
 
@@ -77,6 +96,6 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: Musenzy-universal-release
-          path: build/app/outputs/flutter-apk/app-release.apk
+          path: final-apks/app-release.apk
           retention-days: 30
           if-no-files-found: error
