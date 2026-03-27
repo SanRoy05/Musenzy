@@ -1,0 +1,25 @@
+﻿Analyzing 5 items...                                            
+
+   info - Don't invoke 'print' in production code - lib\services\voice_search_service.dart:14:27 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\voice_search_service.dart:15:29 - avoid_print
+   info - 'partialResults' is deprecated and shouldn't be used. Use SpeechListenOptions.partialResults instead - lib\services\voice_search_service.dart:45:7 - deprecated_member_use
+   info - 'cancelOnError' is deprecated and shouldn't be used. Use SpeechListenOptions.cancelOnError instead - lib\services\voice_search_service.dart:47:7 - deprecated_member_use
+   info - 'listenMode' is deprecated and shouldn't be used. Use SpeechListenOptions.listenMode instead - lib\services\voice_search_service.dart:48:7 - deprecated_member_use
+
+flutter : 5 issues found. 
+(ran in 17.4s)
+At line:1 char:1
++ flutter analyze lib/scree
+ns/search_screen.dart 
+lib/services/voice_sea ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~
+    + CategoryInfo         
+     : NotSpecified: (5 i  
+  ssues found. (ran in 1   
+ 7.4s):String) [], Remo    
+teException
+    + FullyQualifiedErrorI 
+   d : NativeCommandError
+ 

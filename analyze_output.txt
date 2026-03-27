@@ -1,0 +1,5 @@
+﻿Analyzing MUSENZY2.1...                                         
+
+   info - Unnecessary 'const' keyword - lib\layouts\mobile_layout.dart:39:20 - unnecessary_const
+   info - Unnecessary 'const' keyword - lib\layouts\tablet_layout.dart:38:20 - unnecessary_const
+

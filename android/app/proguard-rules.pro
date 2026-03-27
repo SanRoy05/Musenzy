@@ -1,0 +1,7 @@
+-keep class com.ryanheise.** { *; }
+-keep class com.google.** { *; }
+-keep class io.flutter.** { *; }
+-keep class androidx.media.** { *; }
+-dontwarn com.ryanheise.**
+-dontwarn okhttp3.**
+-dontwarn retrofit2.**

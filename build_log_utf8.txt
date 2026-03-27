@@ -1,0 +1,283 @@
+﻿[ +448 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[   +1 ms] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[   +2 ms] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[   +1 ms] executing: [C:\flutter/] git -c log.showSignature=false log HEAD -n 1 --pretty=format:%ad --date=iso
+[ +312 ms] Exit code 0 from: git -c log.showSignature=false log HEAD -n 1 --pretty=format:%ad --date=iso
+[        ] 2025-12-11 11:50:07 -0500
+[  +27 ms] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[   +5 ms] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[ +111 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[   +1 ms] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[   +8 ms] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[ +129 ms] Skipping pub get: version match.
+[ +334 ms] Found plugin window_manager at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\window_manager-0.3.9\
+[  +12 ms] Found plugin screen_retriever at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\screen_retriever-0.1.9\
+[   +3 ms] Found plugin speech_to_text at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\speech_to_text-6.6.0\
+[   +9 ms] Found plugin speech_to_text_macos at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\speech_to_text_macos-1.1.0\
+[  +11 ms] Found plugin share_plus at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\share_plus-7.2.2\
+[  +12 ms] Found plugin url_launcher_windows at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_windows-3.1.5\
+[   +8 ms] Found plugin url_launcher_web at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_web-2.4.2\
+[   +4 ms] Found plugin url_launcher_linux at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_linux-3.2.2\
+[  +11 ms] Found plugin path_provider at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider-2.1.5\
+[   +4 ms] Found plugin path_provider_windows at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_windows-2.3.0\
+[  +14 ms] Found plugin path_provider_linux at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_linux-2.2.1\
+[   +6 ms] Found plugin path_provider_foundation at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_foundation-2.6.0\
+[  +18 ms] Found plugin path_provider_android at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_android-2.2.23\
+[  +24 ms] Found plugin permission_handler at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\permission_handler-11.4.0\
+[   +5 ms] Found plugin permission_handler_windows at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\permission_handler_windows-0.2.1\
+[   +6 ms] Found plugin permission_handler_html at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\permission_handler_html-0.1.3+5\
+[   +3 ms] Found plugin permission_handler_apple at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\permission_handler_apple-9.4.7\
+[   +3 ms] Found plugin permission_handler_android at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\permission_handler_android-12.1.0\
+[  +20 ms] Found plugin audio_session at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\audio_session-0.1.25\
+[   +5 ms] Found plugin audio_service at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\audio_service-0.18.18\
+[   +8 ms] Found plugin sqflite at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\sqflite-2.4.2\
+[   +9 ms] Found plugin sqflite_darwin at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\sqflite_darwin-2.4.2\
+[   +4 ms] Found plugin sqflite_android at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\sqflite_android-2.4.2+3\
+[   +5 ms] Found plugin audio_service_web at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\audio_service_web-0.1.4\
+[  +10 ms] Found plugin just_audio at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\just_audio-0.9.46\
+[   +4 ms] Found plugin just_audio_web at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\just_audio_web-0.4.16\
+[   +7 ms] Found plugin connectivity_plus at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\connectivity_plus-5.0.2\
+[ +273 ms] Found plugin window_manager at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\window_manager-0.3.9\
+[   +4 ms] Found plugin screen_retriever at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\screen_retriever-0.1.9\
+[   +2 ms] Found plugin speech_to_text at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\speech_to_text-6.6.0\
+[   +6 ms] Found plugin speech_to_text_macos at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\speech_to_text_macos-1.1.0\
+[  +12 ms] Found plugin share_plus at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\share_plus-7.2.2\
+[   +5 ms] Found plugin url_launcher_windows at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_windows-3.1.5\
+[   +6 ms] Found plugin url_launcher_web at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_web-2.4.2\
+[   +2 ms] Found plugin url_launcher_linux at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_linux-3.2.2\
+[   +6 ms] Found plugin path_provider at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider-2.1.5\
+[   +2 ms] Found plugin path_provider_windows at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_windows-2.3.0\
+[   +6 ms] Found plugin path_provider_linux at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_linux-2.2.1\
+[   +8 ms] Found plugin path_provider_foundation at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_foundation-2.6.0\
+[  +13 ms] Found plugin path_provider_android at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_android-2.2.23\
+[  +14 ms] Found plugin permission_handler at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\permission_handler-11.4.0\
+[   +2 ms] Found plugin permission_handler_windows at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\permission_handler_windows-0.2.1\
+[   +4 ms] Found plugin permission_handler_html at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\permission_handler_html-0.1.3+5\
+[   +2 ms] Found plugin permission_handler_apple at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\permission_handler_apple-9.4.7\
+[   +5 ms] Found plugin permission_handler_android at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\permission_handler_android-12.1.0\
+[  +18 ms] Found plugin audio_session at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\audio_session-0.1.25\
+[   +4 ms] Found plugin audio_service at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\audio_service-0.18.18\
+[   +4 ms] Found plugin sqflite at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\sqflite-2.4.2\
+[   +6 ms] Found plugin sqflite_darwin at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\sqflite_darwin-2.4.2\
+[   +2 ms] Found plugin sqflite_android at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\sqflite_android-2.4.2+3\
+[   +2 ms] Found plugin audio_service_web at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\audio_service_web-0.1.4\
+[   +6 ms] Found plugin just_audio at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\just_audio-0.9.46\
+[   +3 ms] Found plugin just_audio_web at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\just_audio_web-0.4.16\
+[   +6 ms] Found plugin connectivity_plus at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\connectivity_plus-5.0.2\
+[  +64 ms] Skipping generating web_plugin_registrant.dart because it is up-to-date.
+[ +208 ms] Found plugin window_manager at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\window_manager-0.3.9\
+[   +4 ms] Found plugin screen_retriever at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\screen_retriever-0.1.9\
+[   +2 ms] Found plugin speech_to_text at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\speech_to_text-6.6.0\
+[  +18 ms] Found plugin speech_to_text_macos at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\speech_to_text_macos-1.1.0\
+[  +30 ms] Found plugin share_plus at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\share_plus-7.2.2\
+[   +6 ms] Found plugin url_launcher_windows at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_windows-3.1.5\
+[   +4 ms] Found plugin url_launcher_web at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_web-2.4.2\
+[   +2 ms] Found plugin url_launcher_linux at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_linux-3.2.2\
+[  +12 ms] Found plugin path_provider at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider-2.1.5\
+[   +4 ms] Found plugin path_provider_windows at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_windows-2.3.0\
+[  +52 ms] Found plugin path_provider_linux at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_linux-2.2.1\
+[  +16 ms] Found plugin path_provider_foundation at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_foundation-2.6.0\
+[  +12 ms] Found plugin path_provider_android at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_android-2.2.23\
+[  +12 ms] Found plugin permission_handler at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\permission_handler-11.4.0\
+[   +3 ms] Found plugin permission_handler_windows at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\permission_handler_windows-0.2.1\
+[   +4 ms] Found plugin permission_handler_html at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\permission_handler_html-0.1.3+5\
+[   +2 ms] Found plugin permission_handler_apple at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\permission_handler_apple-9.4.7\
+[   +2 ms] Found plugin permission_handler_android at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\permission_handler_android-12.1.0\
+[  +18 ms] Found plugin audio_session at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\audio_session-0.1.25\
+[   +5 ms] Found plugin audio_service at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\audio_service-0.18.18\
+[   +3 ms] Found plugin sqflite at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\sqflite-2.4.2\
+[   +5 ms] Found plugin sqflite_darwin at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\sqflite_darwin-2.4.2\
+[   +2 ms] Found plugin sqflite_android at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\sqflite_android-2.4.2+3\
+[   +3 ms] Found plugin audio_service_web at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\audio_service_web-0.1.4\
+[   +6 ms] Found plugin just_audio at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\just_audio-0.9.46\
+[   +2 ms] Found plugin just_audio_web at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\just_audio_web-0.4.16\
+[   +9 ms] Found plugin connectivity_plus at C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\connectivity_plus-5.0.2\
+[  +39 ms] Generating C:\Users\USER\OneDrive\MUSENZY2.1\android\app\src\main\java\io\flutter\plugins\GeneratedPluginRegistrant.java
+[   +3 ms] Skipping generating GeneratedPluginRegistrant.java because it is up-to-date.
+[  +12 ms] Skipping generating generated_plugin_registrant.h because it is up-to-date.
+[   +2 ms] Skipping generating generated_plugin_registrant.cc because it is up-to-date.
+[   +3 ms] Skipping generating generated_plugins.cmake because it is up-to-date.
+[   +4 ms] Skipping generating generated_plugin_registrant.h because it is up-to-date.
+[   +2 ms] Skipping generating generated_plugin_registrant.cc because it is up-to-date.
+[   +2 ms] Skipping generating generated_plugins.cmake because it is up-to-date.
+[   +4 ms] Skipping generating GeneratedPluginRegistrant.h because it is up-to-date.
+[   +3 ms] Skipping generating GeneratedPluginRegistrant.m because it is up-to-date.
+[   +3 ms] Skipping generating GeneratedPluginRegistrant.swift because it is up-to-date.
+[ +317 ms] executing: C:\Program Files\Android\Android Studio\jbr\bin\java -version
+[ +118 ms] Exit code 1 from: C:\Program Files\Android\Android Studio\jbr\bin\java -version
+[        ] Error: could not open `C:\Program Files\Android\Android Studio\jbr\lib\jvm.cfg'
+[  +21 ms] Top-level Gradle build file not found, skipping migration of task "clean".
+[   +1 ms] Android Studio version could not be detected, skipping Gradle-Java version compatibility check.
+[  +26 ms] CMake project not found, skipping support Android 15 16k page size migration.
+[  +10 ms] Using gradle from C:\Users\USER\OneDrive\MUSENZY2.1\android\gradlew.bat.
+[  +23 ms] LocalFile: 'C:\Users\USER\OneDrive\MUSENZY2.1\android\build.gradle.kts' doesn't provide an AGP version. Checking settings.
+[   +3 ms] LocalFile: 'C:\Users\USER\OneDrive\MUSENZY2.1\android\settings.gradle.kts' provides AGP version: 8.11.1
+[  +37 ms] Running Gradle task 'assembleRelease'...
+[   +3 ms] executing: [C:\Users\USER\OneDrive\MUSENZY2.1\android/] C:\Users\USER\OneDrive\MUSENZY2.1\android\gradlew.bat --full-stacktrace --info -Pverbose=true -Ptarget-platform=android-arm,android-arm64,android-x64 -Ptarget=lib\main.dart -Pbase-application-name=android.app.Application -Pdart-defines=RkxVVFRFUl9WRVJTSU9OPTMuMzguNQ==,RkxVVFRFUl9DSEFOTkVMPXN0YWJsZQ==,RkxVVFRFUl9HSVRfVVJMPWh0dHBzOi8vZ2l0aHViLmNvbS9mbHV0dGVyL2ZsdXR0ZXIuZ2l0,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049ZjZmZjE1MjlmZA==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049MTUyN2FlMGVjNQ==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My4xMC40 -Pdart-obfuscation=false -Ptrack-widget-creation=true -Ptree-shake-icons=true assembleRelease
+flutter : [ +325 ms] 
+Error: could not open 
+`C:\Program 
+Files\Android\Android 
+Studio\jbr\lib\jvm.cfg'
+At line:1 char:1
++ flutter build apk 
+--release --verbose > 
+build_log_monitored.txt 
+2>&1
++ ~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~
+    + CategoryInfo         
+     : NotSpecified: ([ +  
+  325 ms] Erro...br\lib\   
+ jvm.cfg':String) [], R    
+emoteException
+    + FullyQualifiedErrorI 
+   d : NativeCommandError
+ 
+[ +126 ms] Running Gradle task 'assembleRelease'... (completed in 445ms)
+[ +106 ms] "flutter apk" took 3,018ms.
+[ +183 ms] Gradle task 
+assembleRelease failed 
+with exit code 1
+[        ] 
+           #0      
+throwToolExit (package:flut
+ter_tools/src/base/common.d
+art:34:3)
+           #1      AndroidG
+radleBuilder.buildGradleApp
+ (package:flutter_tools/src
+/android/gradle.dart:592:7)
+           <asynchronous 
+suspension>
+           #2      AndroidG
+radleBuilder.buildApk (pack
+age:flutter_tools/src/andro
+id/gradle.dart:234:5)
+           <asynchronous 
+suspension>
+           #3      
+BuildApkCommand.runCommand 
+(package:flutter_tools/src/
+commands/build_apk.dart:131
+:5)
+           <asynchronous 
+suspension>
+           #4      FlutterC
+ommand.run.<anonymous 
+closure> (package:flutter_t
+ools/src/runner/flutter_com
+mand.dart:1559:27)
+           <asynchronous 
+suspension>
+           #5      
+AppContext.run.<anonymous 
+closure> (package:flutter_t
+ools/src/base/context.dart:
+154:19)
+           <asynchronous 
+suspension>
+           #6      
+CommandRunner.runCommand (p
+ackage:args/command_runner.
+dart:212:13)
+           <asynchronous 
+suspension>
+           #7      FlutterC
+ommandRunner.runCommand.<an
+onymous closure> (package:f
+lutter_tools/src/runner/flu
+tter_command_runner.dart:48
+7:9)
+           <asynchronous 
+suspension>
+           #8      
+AppContext.run.<anonymous 
+closure> (package:flutter_t
+ools/src/base/context.dart:
+154:19)
+           <asynchronous 
+suspension>
+           #9      FlutterC
+ommandRunner.runCommand (pa
+ckage:flutter_tools/src/run
+ner/flutter_command_runner.
+dart:422:5)
+           <asynchronous 
+suspension>
+           #10     
+run.<anonymous 
+closure>.<anonymous 
+closure> (package:flutter_t
+ools/runner.dart:104:11)
+           <asynchronous 
+suspension>
+           #11     
+AppContext.run.<anonymous 
+closure> (package:flutter_t
+ools/src/base/context.dart:
+154:19)
+           <asynchronous 
+suspension>
+           #12     main (pa
+ckage:flutter_tools/executa
+ble.dart:103:3)
+           <asynchronous 
+suspension>
+
+
+[        ] Running 1 shutdown hook
+[   +9 ms] Shutdown hooks complete
+[ +144 ms] exiting with code 1

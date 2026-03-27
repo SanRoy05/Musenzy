@@ -1,0 +1,302 @@
+﻿Running Gradle task 'assembleRelease'...                        
+flutter : The message 
+received from the daemon 
+indicates that the daemon 
+has disappeared.
+At line:1 char:1
++ flutter build apk 
+--release 2>&1 | Out-File 
+-Encoding utf8 build_apk_ 
+...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~
+    + CategoryInfo         
+     : NotSpecified: (The  
+   message rec...as disa   
+ ppeared.:String) [], R    
+emoteException
+    + FullyQualifiedErrorI 
+   d : NativeCommandError
+ 
+Build request sent: Build{i
+d=695e3350-8895-4c29-8b3e-1
+92305d195f7, currentDir=C:\
+Users\USER\OneDrive\MUSENZY
+2.1\android}
+Attempting to read last 
+messages from the daemon 
+log...
+Daemon pid: 14904
+  log file: C:\Users\USER\.
+gradle\daemon\8.14\daemon-1
+4904.out.log
+----- Last 20 lines from 
+daemon log file - 
+daemon-14904.out.log -----
+2026-03-26T18:26:28.672+053
+0 [DEBUG] [org.gradle.launc
+her.daemon.server.Synchroni
+zedDispatchConnection] 
+thread 30: received class o
+rg.gradle.launcher.daemon.p
+rotocol.Build
+2026-03-26T18:26:28.673+053
+0 [DEBUG] [org.gradle.launc
+her.daemon.server.DefaultDa
+emonConnection] thread 30: 
+Received non-IO message 
+from client: Build{id=695e3
+350-8895-4c29-8b3e-192305d1
+95f7, currentDir=C:\Users\U
+SER\OneDrive\MUSENZY2.1\and
+roid}
+2026-03-26T18:26:28.673+053
+0 [INFO] [org.gradle.launch
+er.daemon.server.DefaultInc
+omingConnectionHandler] 
+Received command: Build{id=
+695e3350-8895-4c29-8b3e-192
+305d195f7, currentDir=C:\Us
+ers\USER\OneDrive\MUSENZY2.
+1\android}.
+2026-03-26T18:26:28.674+053
+0 [DEBUG] [org.gradle.launc
+her.daemon.server.DefaultIn
+comingConnectionHandler] 
+Starting executing 
+command: Build{id=695e3350-
+8895-4c29-8b3e-192305d195f7
+, currentDir=C:\Users\USER\
+OneDrive\MUSENZY2.1\android
+} with connection: socket 
+connection from 
+/127.0.0.1:60039 to 
+/127.0.0.1:60040.
+2026-03-26T18:26:28.678+053
+0 [DEBUG] [org.gradle.launc
+her.daemon.server.DaemonSta
+teCoordinator] Command 
+execution: started DaemonCo
+mmandExecution[command = Bu
+ild{id=695e3350-8895-4c29-8
+b3e-192305d195f7, currentDi
+r=C:\Users\USER\OneDrive\MU
+SENZY2.1\android}, 
+connection = 
+DefaultDaemonConnection: 
+socket connection from 
+/127.0.0.1:60039 to 
+/127.0.0.1:60040] after 
+0.00415 minutes of idle
+2026-03-26T18:26:28.678+053
+0 [INFO] [org.gradle.launch
+er.daemon.server.DaemonRegi
+stryUpdater] Marking the 
+daemon as busy, address: [1
+8803a46-cf8f-44eb-8ea3-2c06
+875c491b port:60039, addres
+ses:[localhost/127.0.0.1]]
+2026-03-26T18:26:28.679+053
+0 [DEBUG] [org.gradle.launc
+her.daemon.registry.Persist
+entDaemonRegistry] Marking 
+busy by address: [18803a46-
+cf8f-44eb-8ea3-2c06875c491b
+ port:60039, addresses:[loc
+alhost/127.0.0.1]]
+2026-03-26T18:26:28.680+053
+0 [DEBUG] [org.gradle.cache
+.internal.DefaultFileLockMa
+nager] Waiting to acquire 
+exclusive lock on daemon 
+addresses registry.
+2026-03-26T18:26:28.681+053
+0 [DEBUG] [org.gradle.cache
+.internal.DefaultFileLockMa
+nager] Lock acquired on 
+daemon addresses registry.
+2026-03-26T18:26:28.684+053
+0 [DEBUG] [org.gradle.cache
+.internal.DefaultFileLockMa
+nager] Releasing lock on 
+daemon addresses registry.
+2026-03-26T18:26:28.686+053
+0 [DEBUG] [org.gradle.launc
+her.daemon.server.DaemonSta
+teCoordinator] resetting 
+idle timer
+2026-03-26T18:26:28.686+053
+0 [DEBUG] [org.gradle.launc
+her.daemon.server.DaemonSta
+teCoordinator] daemon is 
+running. Sleeping until 
+state changes.
+2026-03-26T18:26:28.688+053
+0 [INFO] [org.gradle.launch
+er.daemon.server.exec.Start
+BuildOrRespondWithBusy] 
+Daemon is about to start 
+building Build{id=695e3350-
+8895-4c29-8b3e-192305d195f7
+, currentDir=C:\Users\USER\
+OneDrive\MUSENZY2.1\android
+}. Dispatching build 
+started information...
+2026-03-26T18:26:28.689+053
+0 [DEBUG] [org.gradle.launc
+her.daemon.server.Synchroni
+zedDispatchConnection] 
+thread 32: dispatching org.
+gradle.launcher.daemon.prot
+ocol.BuildStarted@33a674de
+2026-03-26T18:26:28.695+053
+0 [DEBUG] [org.gradle.launc
+her.daemon.server.exec.Esta
+blishBuildEnvironment] 
+Configuring env variables: 
+[PATH, 
+USERDOMAIN_ROAMINGPROFILE, 
+PROCESSOR_LEVEL, 
+SYSTEMDRIVE, 
+POWERSHELL_EXECUTABLE, 
+SESSIONNAME, 
+ALLUSERSPROFILE, 
+PROCESSOR_ARCHITECTURE, 
+EFC_9660_2775293581, VSCODE
+_PYTHON_AUTOACTIVATE_GUARD,
+ VSCODE_GIT_IPC_HANDLE, 
+DRIVERDATA, 
+EFC_9660_2283032206, 
+PROGRAMFILES, 
+VSCODE_INJECTION, 
+PSMODULEPATH, COLORTERM, 
+PROGRAMDATA, DIRNAME, 
+CHOCOLATEYLASTPATHUPDATE, 
+USERNAME, 
+VSCODE_GIT_ASKPASS_NODE, 
+TERM_PROGRAM_VERSION, 
+CMD_LINE_ARGS, 
+GIT_ASKPASS, 
+CHROME_CRASHPAD_PIPE_NAME, 
+EXIT_WITH_ERRORLEVEL, 
+ONEDRIVE, APP_HOME, 
+MINGIT_PATH, PATHEXT, 
+PAGER, SNAPSHOT_PATH, 
+SHARED_BIN, WINDIR, 
+HOMEPATH, 
+PROCESSOR_IDENTIFIER, 
+PUBLIC, CACHE_DIR, 
+ZES_ENABLE_SYSMAN, _SKIP, 
+LOCALAPPDATA, 
+COMMONPROGRAMFILES(X86), 
+USERDOMAIN, DART_SDK_PATH, 
+LOGONSERVER, JAVA_HOME, 
+FLUTTER_TOOLS_DIR, PROMPT, 
+PROGRAMFILES(X86), 
+FLUTTER_ROOT, 
+EFC_9660_3789132940, LANG, 
+VSCODE_GIT_ASKPASS_MAIN, 
+=C:, APPDATA, 
+PROGRAMW6432, SYSTEMROOT, 
+JAVA_EXE, 
+CHOCOLATEYINSTALL, VSCODE_G
+IT_ASKPASS_EXTRA_ARGS, 
+DART, EFC_9660_1262719628, 
+ANTIGRAVITY_CLI_ALIAS, OS, 
+TERM_PROGRAM, 
+COMMONPROGRAMW6432, 
+COMPUTERNAME, 
+COMMONPROGRAMFILES, 
+COMSPEC, 
+PROCESSOR_REVISION, 
+CLASSPATH, APP_BASE_NAME, 
+TEMP, 
+FLUTTER_ALREADY_LOCKED, 
+HOMEDRIVE, USERPROFILE, 
+TMP, NUMBER_OF_PROCESSORS, 
+OPENROUTER_API_KEY, 
+ANTIGRAVITY_AGENT, 
+EFC_9660_1592913036]
+2026-03-26T18:26:28.705+053
+0 [DEBUG] [org.gradle.launc
+her.daemon.server.exec.LogT
+oClient] About to start 
+relaying all logs to the 
+client via the connection.
+2026-03-26T18:26:28.706+053
+0 [INFO] [org.gradle.launch
+er.daemon.server.exec.LogTo
+Client] The client will 
+now receive all logging 
+from the daemon (pid: 
+14904). The daemon log 
+file: C:\Users\USER\.gradle
+\daemon\8.14\daemon-14904.o
+ut.log
+2026-03-26T18:26:28.709+053
+0 [INFO] [org.gradle.launch
+er.daemon.server.exec.LogAn
+dCheckHealth] Starting 
+build in new daemon 
+[memory: 8 GiB]
+2026-03-26T18:26:28.712+053
+0 [DEBUG] [org.gradle.launc
+her.daemon.server.exec.Exec
+uteBuild] The daemon has 
+started executing the 
+build.
+2026-03-26T18:26:28.712+053
+0 [DEBUG] [org.gradle.launc
+her.daemon.server.exec.Exec
+uteBuild] Executing build 
+with daemon context: Defaul
+tDaemonContext[uid=f9dfb5c4
+-0f0b-4d6f-a3f2-5091f75dbaf
+2,javaHome=C:\Program 
+Files\Android\Android Studi
+o\jbr,javaVersion=21,javaVe
+ndor=JetBrains s.r.o.,daemo
+nRegistryDir=C:\Users\USER\
+.gradle\daemon,pid=14904,id
+leTimeout=10800000,priority
+=NORMAL,applyInstrumentatio
+nAgent=true,nativeServicesM
+ode=ENABLED,daemonOpts=-XX:
+MaxMetaspaceSize=4G,-XX:Res
+ervedCodeCacheSize=512m,-XX
+:+HeapDumpOnOutOfMemoryErro
+r,-Xmx8G,-Dfile.encoding=UT
+F-8,-Duser.country=US,-Duse
+r.language=en,-Duser.varian
+t]----- End of the daemon 
+log -----
+
+JVM crash log found: file:/
+//C:/Users/USER/OneDrive/MU
+SENZY2.1/android/hs_err_pid
+14904.log
+
+FAILURE: Build failed with 
+an exception.
+
+* What went wrong:
+Gradle build daemon 
+disappeared unexpectedly 
+(it may have been killed 
+or may have crashed)
+
+* Try:
+> Run with --stacktrace 
+option to get the stack 
+trace.
+> Run with --info or 
+--debug option to get more 
+log output.
+> Run with --scan to get 
+full insights.
+> Get more help at 
+https://help.gradle.org.
+Running Gradle task 'assembleRelease'...                          126.2s
+Gradle task 
+assembleRelease failed 
+with exit code 1

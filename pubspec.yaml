@@ -1,0 +1,59 @@
+name: musenzy
+description: "Musenzy - Cross-platform music streaming app"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Audio
+  youtube_explode_dart: ^2.3.6
+  just_audio: ^0.9.40
+  just_audio_background: ^0.0.1-beta.12
+  audio_service: ^0.18.15
+  audio_session: ^0.1.21
+
+  # Storage
+  hive_flutter: ^1.1.0
+
+  # Network & Images
+  http: ^1.2.0
+  cached_network_image: ^3.3.1
+  connectivity_plus: ^5.0.2
+
+  # Features
+  speech_to_text: ^6.6.0
+  permission_handler: ^11.3.0
+
+  # State Management
+  provider: ^6.1.2
+  get_it: ^7.6.7
+  rxdart: ^0.27.7
+
+  # UI
+  palette_generator: ^0.3.3+3
+  marquee: ^2.2.3
+  shimmer: ^3.0.0
+  share_plus: ^7.2.2
+
+  # Desktop window management
+  window_manager: ^0.3.8
+
+  # Responsive layout
+  responsive_framework: ^1.1.1
+  sliver_tools: ^0.2.12
+  hive: ^2.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.9
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
