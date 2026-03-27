@@ -22,7 +22,8 @@ import 'services/voice_search_service.dart';
 import 'services/recommendation_service.dart';
 import 'services/smart_queue_service.dart';
 import 'models/user_preferences.dart';
-import 'screens/onboarding_screen.dart';
+
+
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -46,6 +47,7 @@ void main() async {
   await Hive.initFlutter();
   Hive.registerAdapter(SongAdapter());
   Hive.registerAdapter(PlaylistAdapter());
+  Hive.registerAdapter(UserPreferencesAdapter());
   await Hive.openBox<Song>('liked_songs');
   await Hive.openBox<Song>('recently_played');
   await Hive.openBox<Playlist>('playlists');
@@ -97,22 +99,9 @@ void main() async {
           ),
         ),
       ],
-      child: const StartWrapper(),
+      child: const MyApp(),
     ),
   );
 }
 
-class StartWrapper extends StatelessWidget {
-  const StartWrapper({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    final box = Hive.box<UserPreferences>('user_preferences');
-    final prefs = box.get('prefs');
-
-    if (prefs == null || !prefs.hasCompletedOnboarding) {
-      return const OnboardingScreen();
-    }
-    return const ResponsiveLayout();
-  }
-}
+// StartWrapper is no longer used — onboarding check is inside MyApp.
