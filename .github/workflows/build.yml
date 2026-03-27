@@ -45,7 +45,7 @@ jobs:
           echo "org.gradle.caching=true" >> android/gradle.properties
           echo "android.enableR8.fullMode=false" >> android/gradle.properties
 
-      - name: 🔨 Build Release APK split per ABI
+      - name: 🔨 Build All APKs (split + universal)
         run: |
           flutter build apk \
             --release \
@@ -72,25 +72,6 @@ jobs:
           path: build/app/outputs/flutter-apk/app-armeabi-v7a-release.apk
           retention-days: 30
           if-no-files-found: error
-
-      - name: 🧹 Clean build artifacts
-        run: rm -rf build/
-
-      - name: 🔨 Build Universal APK
-        run: |
-          flutter build apk \
-            --release \
-            --no-tree-shake-icons
-
-      - name: ✅ Verify APK Build
-        run: |
-          if [ ! -f build/app/outputs/flutter-apk/app-release.apk ]; then
-            echo "❌ Universal APK not found!"
-            echo "Available files:"
-            ls -lh build/app/outputs/flutter-apk/ || true
-            exit 1
-          fi
-          echo "✅ Universal APK found successfully"
 
       - name: 📤 Upload Universal APK
         uses: actions/upload-artifact@v4
