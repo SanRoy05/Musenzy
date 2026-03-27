@@ -5,3 +5,4 @@
 -dontwarn com.ryanheise.**
 -dontwarn okhttp3.**
 -dontwarn retrofit2.**
+-keep class com.google.android.play.core.** { *; }
