@@ -63,6 +63,7 @@ jobs:
           name: Musenzy-arm64-release
           path: build/app/outputs/flutter-apk/app-arm64-v8a-release.apk
           retention-days: 30
+          if-no-files-found: error
 
       - name: 📤 Upload armeabi-v7a APK
         uses: actions/upload-artifact@v4
@@ -70,6 +71,10 @@ jobs:
           name: Musenzy-armeabi-release
           path: build/app/outputs/flutter-apk/app-armeabi-v7a-release.apk
           retention-days: 30
+          if-no-files-found: error
+
+      - name: 🧹 Clean build artifacts
+        run: rm -rf build/app/outputs/flutter-apk/app-*.apk
 
       - name: 🔨 Build Universal APK
         run: |
@@ -77,9 +82,20 @@ jobs:
             --release \
             --no-tree-shake-icons
 
+      - name: ✅ Verify APK Build
+        run: |
+          if [ ! -f build/app/outputs/flutter-apk/app-release.apk ]; then
+            echo "❌ Universal APK not found!"
+            echo "Available files:"
+            ls -lh build/app/outputs/flutter-apk/ || true
+            exit 1
+          fi
+          echo "✅ Universal APK found successfully"
+
       - name: 📤 Upload Universal APK
         uses: actions/upload-artifact@v4
         with:
           name: Musenzy-universal-release
           path: build/app/outputs/flutter-apk/app-release.apk
           retention-days: 30
+          if-no-files-found: error
